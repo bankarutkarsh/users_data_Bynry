@@ -9,7 +9,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 const corsOptions = {
-    origin: "https://user-mapping.vercel.app/",
+    origin: "https://user-mapping.vercel.app",
     credentials: true,
     optionSuccessStatus:200
 };
